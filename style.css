@@ -6,7 +6,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	width: 100vw;
 	height: 100vh;
-	background-color: #D3D3D3;
+	background-color: #f6f6f9;
 }
 /***************Header*****************/
 .sec--header__title {
@@ -14,7 +14,7 @@ body {
 	font-size: 68px;
 	text-align: center;
 	padding: 25px 0;
-	color: #CC5D50;
+	color: #FF7c7c;
 }
 
 /**************ASIDE******************/
@@ -56,7 +56,7 @@ body {
 }
 .fa:hover {
 	cursor: pointer;
-	color: #CC5D50;
+	color: #FF7c7c;
 	transform: scale(1.2);
 }
 .sec--main__result, .sec--main__computer {
@@ -89,7 +89,7 @@ body {
 	margin-left: -109px;
 }
 .play-again:hover {
-	color: #CC5D50;
+	color: #FF7c7c;
 	cursor: pointer;
 }
 
