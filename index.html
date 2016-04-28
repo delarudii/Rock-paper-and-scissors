@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="" />
+        <title>Rock, paper, scissors</title>
+        <!-- STYLES--> 
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link href="style.css" rel="stylesheet" />
+        <!--SCRIPTS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <header class="sec sec--header">
+            <h1 class="sec--header__title">Rock, paper, scissors</h1>
+        </header>
+        <aside class="sec sec--aside">
+            <h2 class="sec--aside__title">How to play?</h2>
+            <ul class="list list--role">
+                <li class="list--role__item">Choose your item!</li>
+                <li class="list--role__item">Wait for computer choice..</li>
+                <li class="list--role__item">... and win or lose!</li>
+            </ul>
+            <p class="sec--aside__text">Have fun!</p>
+        </aside>
+        <main class="sec sec--main">
+            <i class="fa fa-hand-rock-o" aria-hidden="true" id="rock"></i>
+            <i class="fa fa-hand-paper-o" aria-hidden="true" id="paper"></i>
+            <i class="fa fa-hand-scissors-o" aria-hidden="true" id="scissors"></i>
+            <p class="sec--main__result"></p>
+            <p class="sec--main__vs">vs</p>
+            <p class="sec--main__computer"></p>
+            <p class="sec--main__winner"></p>
+            <p class="play-again">Play again!</p>
+        </main>
+        <footer class="sec sec--footer">
+            <p class="sec--footer__caption">Author: Mateusz Bednarski</p>
+        </footer>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

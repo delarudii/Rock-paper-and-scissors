@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 100vw;
+	height: 100vh;
+	background-color: #D3D3D3;
+}
+/***************Header*****************/
+.sec--header__title {
+	font-family: 'Pacifico', cursive;
+	font-size: 68px;
+	text-align: center;
+	padding: 25px 0;
+	color: #CC5D50;
+}
+
+/**************ASIDE******************/
+.sec--aside {
+	float: left;
+	width: 35%;
+	text-align: center;
+}
+.sec--aside__title {
+	font-weight: 700;
+	font-size: 35px;
+	padding: 15px;
+}
+.list--role {
+	list-style-type: decimal;
+}
+.list--role__item {
+	font-size: 22px;
+	line-height: 1.5;
+}
+.sec--aside__text {
+	padding: 15px;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+
+
+
+/**************MAIN*******************/
+.sec--main {
+	float: left;
+	width: 65%;
+}
+.fa {
+	text-align: center;
+	padding: 15px 40px;
+	font-size: 170px;
+}
+.fa:hover {
+	cursor: pointer;
+	color: #CC5D50;
+	transform: scale(1.2);
+}
+.sec--main__result, .sec--main__computer {
+	float: left;
+	text-transform: uppercase;
+	font-size: 35px;
+	padding: 20px 23px;
+	text-align: center;
+	width: 30%;
+}
+.sec--main__vs {
+	float: left; 
+	padding: 30px 0;
+	display: none;
+	text-align: center;
+	width: 15%;
+}
+.sec--main__winner {
+	clear: both;
+	text-align: center;
+	font-weight: 700;
+	font-size: 45px;
+	margin-left: -109px;
+}
+.play-again {
+	display: none;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	text-align: center;
+	margin-left: -109px;
+}
+.play-again:hover {
+	color: #CC5D50;
+	cursor: pointer;
+}
+
+/*************FOOTER******************/
+.sec--footer {
+	clear: both;
+}
+.sec--footer__caption {
+	font-size: 15px;
+	position: absolute;
+	bottom: 10px;
+	left: 42%;
+}
