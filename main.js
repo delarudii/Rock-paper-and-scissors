@@ -1,9 +1,9 @@
 var userChoice;
-var computerChoice = Math.random();
+var computerChoice;
 
 /*************Main functions - user choice ****************/
 $(".fa").click(function() {
-    var userChoice = this.id;
+    userChoice = this.id;
     $(".sec--main__result").html(userChoice);
     setTimeout( function(){$(".sec--main__vs").css("display", "inline-block")}, 500);
     setTimeout(start, 1500);
@@ -13,6 +13,7 @@ $(".fa").click(function() {
     $(".sec--main__computer").empty();
     $(".sec--main__winner").empty();
     $(".play-again").css("display", "none");
+    computerChoice = Math.random();
 });
 
 /************Computer choice***********************/
@@ -67,6 +68,3 @@ $(".play-again").click(function(){
     $(".sec--main__winner").empty();
     $(".play-again").css("display", "none");
 });
-
-
-
